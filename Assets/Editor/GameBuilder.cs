@@ -11,7 +11,7 @@ namespace MyCoolNameSpace
             BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
             buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
             buildPlayerOptions.target = BuildTarget.StandaloneWindows64;
-            buildPlayerOptions.locationPathName = "build/Windows";
+            buildPlayerOptions.locationPathName = "build/MyCoolGame.exe";
             buildPlayerOptions.options = BuildOptions.None;
 
             BuildReport buildReport = BuildPipeline.BuildPlayer(buildPlayerOptions);
