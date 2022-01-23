@@ -46,11 +46,8 @@ namespace MyCoolNameSpace
 
         private static void DeleteBuildFolder()
         {
-            Debug.Log($"[Deleting build folder...]");
             var pathCurrentDirectory = Directory.GetParent(Application.dataPath).FullName;
-            Debug.Log($"Current directory is {pathCurrentDirectory}");
             var folderToDelete = Path.Combine(pathCurrentDirectory, "build");
-            Debug.Log($"Folder to delete is {folderToDelete}");
             try
             {
                 Directory.Delete(folderToDelete, true);
