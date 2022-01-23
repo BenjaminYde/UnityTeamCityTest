@@ -2,7 +2,7 @@
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace UnityTemplateProjects
+namespace MyCoolNameSpace
 {
     public class GameBuilder
     {
